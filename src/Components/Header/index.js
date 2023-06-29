@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container } from './styles';
 import { ThemeContextLayout } from '../../context/ThemeContextLayout'
-export default class Header extends React.Component {
 
+export default class Header extends React.Component {
   render() {
     return (
       <ThemeContextLayout.Consumer>
